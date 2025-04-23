@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elite Real Estate</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+  <nav class="nav">
+    <button class="nav__btn nav__btn--left">Home</button>
+    <div class="nav__right-group" id="mobileMenu">
+      <button class="nav__btn">Features</button>
+      <button class="nav__btn">Our Advantages</button>
+      <button class="nav__btn">Contacts</button>
+    </div>
+    <button class="mobile-menu-btn" id="menuToggle">☰</button>
+  </nav>
+</header>
+
+  <!-- Main Content -->
+  <main class="main">
+    <div class="content">
+      <!-- Text Block -->
+      <div class="text-block">
+        <h1 class="title">
+          <span>Your dream home starts here.</span>
+          <span>Premium real estate for living and investment.</span>
+        </h1>
+        
+        <p class="subtitle">Only verified listings with favorable conditions:</p>
+        
+        <div class="stats">
+          <div class="stats__item">
+            <span class="stats__value">$450,000</span>
+            <span class="stats__label">modern sea-view apartments</span>
+          </div>
+          <div class="stats__item">
+            <span class="stats__value">Mortgage from 5%</span>
+            <span class="stats__label">special conditions for our clients</span>
+          </div>
+          <div class="stats__item">
+            <span class="stats__value">10% discount</span>
+            <span class="stats__label">when purchasing two properties</span>
+          </div>
+        </div>
+        
+        <button class="order-btn">BOOK NOW</button>
+      </div>
+
+      <!-- Image Block -->
+      <div class="image-block"></div>
+    </div>
+  
+    <!-- Features Section -->
+    <section class="features">
+      <div class="features__image features__image--left">
+        <img src="nedv2.jpg" alt="Luxury residential complex" loading="lazy">
+      </div>
+
+      <div class="features__content">
+  <h2 class="features__title">Our Advantages</h2>
+  
+  <div class="advantages-grid">
+    <!-- Advantage 1 -->
+    <div class="advantage-item">
+      <div class="advantage-icon">🏆</div>
+      <div class="advantage-content">
+        <h3 class="advantage-title">Market Expertise</h3>
+        <p class="advantage-text">Over 10 years of successful work in premium real estate</p>
+      </div>
+    </div>
+    
+    <!-- Advantage 2 -->
+    <div class="advantage-item">
+      <div class="advantage-icon">🔑</div>
+      <div class="advantage-content">
+        <h3 class="advantage-title">Exclusive Listings</h3>
+        <p class="advantage-text">Access to closed properties in prestigious neighborhoods</p>
+      </div>
+    </div>
+    
+    <!-- Advantage 3 -->
+    <div class="advantage-item">
+      <div class="advantage-icon">🛡️</div>
+      <div class="advantage-content">
+        <h3 class="advantage-title">Legal Protection</h3>
+        <p class="advantage-text">Full transaction support and document verification</p>
+      </div>
+    </div>
+    
+    <!-- Advantage 4 -->
+    <div class="advantage-item">
+      <div class="advantage-icon">💼</div>
+      <div class="advantage-content">
+        <h3 class="advantage-title">Personal Approach</h3>
+        <p class="advantage-text">Dedicated manager for each client</p>
+      </div>
+    </div>
+    
+    <!-- Advantage 5 -->
+    <div class="advantage-item">
+      <div class="advantage-icon">📈</div>
+      <div class="advantage-content">
+        <h3 class="advantage-title">Investment Solutions</h3>
+        <p class="advantage-text">Assistance in selecting high-yield properties</p>
+      </div>
+    </div>
+    
+    <!-- Advantage 6 -->
+    <div class="advantage-item">
+      <div class="advantage-icon">🌍</div>
+      <div class="advantage-content">
+        <h3 class="advantage-title">Global Network</h3>
+        <p class="advantage-text">Partners in 15 countries for international purchases</p>
+      </div>
+    </div>
+  </div>
+  
+  <button class="features__btn">VIEW PROPERTIES</button>
+</div>
+
+      <div class="features__image features__image--right">
+        <img src="nedv3.jpg" alt="Sea view from apartments" loading="lazy">
+      </div>
+    </section>
+  
+    <!-- Form Section -->
+    <section class="form-section">
+      <div class="form-container">
+        <!-- Left Form Part (2/3 width) -->
+        <div class="form-content">
+          <h2 class="form-title">Submit your application now</h2>
+          
+          <form class="contact-form">
+            <div class="form-group">
+              <input type="text" id="name" name="name" required>
+              <label for="name">Name</label>
+            </div>
+            
+            <div class="form-group">
+              <input type="email" id="email" name="email" required>
+              <label for="email">E-mail</label>
+            </div>
+            
+            <div class="checkbox-group">
+              <input type="checkbox" id="privacy" name="privacy" required>
+              <label for="privacy">I agree with the Privacy Policy</label>
+            </div>
+            
+            <button type="submit" class="submit-btn">SUBMIT</button>
+          </form>
+        </div>
+        
+        <!-- Right Form Part (1/3 width) -->
+        <div class="form-image">
+          <img src="rielt.jpg" alt="Contact image" loading="lazy">
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+  <div class="footer-divider"></div>
+  
+  <div class="footer-content">
+    <div class="footer-row">
+      <!-- Left Column -->
+      <div class="footer-col footer-col--left">
+        <a href="#" class="footer-link">Home</a>
+      </div>
+      
+      <!-- Center Column with 4 elements -->
+      <div class="footer-col footer-col--center">
+        <div class="social-icons">
+          <a href="#" class="social-icon">📱</a> <!-- TikTok -->
+          <a href="#" class="social-icon">✈️</a> <!-- Telegram -->
+          <a href="#" class="social-icon">📺</a> <!-- YouTube -->
+          <a href="#" class="social-icon">📷</a> <!-- Instagram -->
+        </div>
+      </div>
+      
+      <!-- Right Column -->
+      <div class="footer-col footer-col--right">
+        <a href="#" class="footer-link footer-link--accent">Book Now</a>
+      </div>
+    </div>
+    
+    <!-- Copyright Line -->
+    <div class="footer-row footer-copyright">
+      <div>© 2025, Copyright.</div>
+      <div>Privacy Policy</div>
+      <div>Terms of Use</div>
+    </div>
+  </div>
+  
+  <div class="footer-divider"></div>
+</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
